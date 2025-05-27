@@ -1,0 +1,99 @@
+// theme/templates/index.json
+{
+  "sections": {
+    "hero_banner": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Elite Recovery Starts Here ❄️",
+        "text": "<p>Boost your recovery and performance with our foldable ice bath tubs. Trusted by athletes and gym lovers across Australia.</p>",
+        "button_label": "Shop Now",
+        "button_link": "/products/elite-recovery-ice-bath-tub",
+        "color_scheme": "accent-1",
+        "text_alignment": "center"
+      }
+    },
+    "benefits_section": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Why Plunge With Us?",
+        "text": "<ul><li>✅ Foldable &amp; Travel-Ready</li><li>✅ Multi-Layer Insulation</li><li>✅ Built for Aussie Athletes</li><li>✅ Free AU Shipping</li><li>✅ Supports Muscle Recovery</li></ul>",
+        "text_alignment": "center"
+      }
+    },
+    "testimonial_block": {
+      "type": "rich-text",
+      "settings": {
+        "title": "What Our Customers Say",
+        "text": "<p>\"Hands-down best recovery investment. Folds up small and keeps water icy for hours. – Jack, VIC\"</p><p>\"Shipped quick, looks elite in my garage gym. Getting one for my brother too. – Sam, NSW\"</p>",
+        "text_alignment": "center"
+      }
+    },
+    "call_to_action": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Ready to Feel the Chill?",
+        "text": "<p>Join thousands of Aussies taking recovery seriously. Cold plunging isn’t a trend—it’s a lifestyle.</p>",
+        "button_label": "Shop the Tub",
+        "button_link": "/products/elite-recovery-ice-bath-tub",
+        "text_alignment": "center"
+      }
+    }
+  },
+  "order": [
+    "hero_banner",
+    "benefits_section",
+    "testimonial_block",
+    "call_to_action"
+  ]
+}
+
+// theme/templates/page.json
+{
+  "sections": {
+    "main-page": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "about_text": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Our Story",
+        "text": "<p>At <strong>ChillForce Recovery</strong>, we’re on a mission to help Aussies recover faster, train harder, and feel unstoppable. From garage gyms to pro athletes, our portable ice baths bring elite recovery home.</p>",
+        "text_alignment": "center"
+      }
+    }
+  },
+  "order": [
+    "main-page",
+    "about_text"
+  ]
+}
+
+// theme/templates/product.json
+{
+  "sections": {
+    "product": {
+      "type": "main-product",
+      "settings": {
+        "show_vendor": false,
+        "show_sku": false,
+        "show_quantity_selector": true,
+        "show_payment_button": true
+      }
+    },
+    "product_recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "title": "You Might Also Like",
+        "limit": 4
+      }
+    }
+  },
+  "order": [
+    "product",
+    "product_recommendations"
+  ]
+}
