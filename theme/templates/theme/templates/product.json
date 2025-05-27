@@ -1,0 +1,24 @@
+{
+  "sections": {
+    "product": {
+      "type": "main-product",
+      "settings": {
+        "show_vendor": false,
+        "show_sku": false,
+        "show_quantity_selector": true,
+        "show_payment_button": true
+      }
+    },
+    "product_recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "title": "You Might Also Like",
+        "limit": 4
+      }
+    }
+  },
+  "order": [
+    "product",
+    "product_recommendations"
+  ]
+}
