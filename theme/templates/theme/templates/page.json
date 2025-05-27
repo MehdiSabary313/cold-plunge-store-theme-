@@ -1,0 +1,23 @@
+{
+  "sections": {
+    "main-page": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "about_text": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Our Story",
+        "text": "<p>At <strong>ChillForce Recovery</strong>, we’re on a mission to help Aussies recover faster, train harder, and feel unstoppable. From garage gyms to pro athletes, our portable ice baths bring elite recovery home.</p>",
+        "text_alignment": "center"
+      }
+    }
+  },
+  "order": [
+    "main-page",
+    "about_text"
+  ]
+}
